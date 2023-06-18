@@ -55,7 +55,7 @@ The backend uses a SQLite database to store user information and tasks. The data
 
 Create `.inv` file and insert the following in it { DATABASE_URL="file:./dev.db" }.
 
-##Schema
+## Schema
 model User {
   id       Int      @id @default(autoincrement())
   name     String
