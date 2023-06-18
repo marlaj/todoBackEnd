@@ -34,9 +34,10 @@ To get started with the TodoApp backend, follow these steps:
 1. Clone this repository to your local machine.
 2. Install Node.js (if not already installed).
 3. Install project dependencies by running `npm install`.
-4. Set up a SQLite database and configure the connection URL in the `.env` file based on the provided `.env.example` file.
-5. Run database migrations by executing `npx prisma migrate dev`.
-6. Start the server by running `npm start`.
+4. Create `.inv` file and insert the following in it { DATABASE_URL="file:./dev.db" }.
+5. Set up a SQLite database and configure the connection URL in the `.env` file based on the provided `.env.example` file.
+6. Run database migrations by executing `npx prisma migrate dev`.
+7. Start the server by running `npm start`.
 
 ## API Endpoints
 
