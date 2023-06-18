@@ -53,7 +53,7 @@ The backend provides the following API endpoints:
 
 The backend uses a SQLite database to store user information and tasks. The database connection URL should be configured in the `.env` file.
 
-Create `.inv` file and insert the following in it { DATABASE_URL="file:./dev.db" }.
+Create `.env` file and insert the following in it { DATABASE_URL="file:./dev.db" }.
 
 ## Schema
 model User {
